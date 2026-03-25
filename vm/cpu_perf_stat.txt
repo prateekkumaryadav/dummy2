@@ -1,0 +1,19 @@
+# started on Tue Mar 24 21:45:19 2026
+
+
+ Performance counter stats for 'sysbench cpu --cpu-max-prime=20000 --threads=3 --time=30 run':
+
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      cache-references                                                      
+   <not supported>      cache-misses                                                          
+   <not supported>      branch-misses                                                         
+               647      context-switches                                                      
+                 0      cpu-migrations                                                        
+
+      30.010805023 seconds time elapsed
+
+      89.291548000 seconds user
+       0.702401000 seconds sys
+
+
