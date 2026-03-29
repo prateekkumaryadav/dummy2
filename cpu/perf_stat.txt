@@ -1,0 +1,50 @@
+event syntax error: 'topdown-retiring/metric-id=topdown!1retiring/,INT_MISC.C..'
+                     \___ Bad event or PMU
+
+Unable to find PMU or event on a PMU of 'topdown-retiring'
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 20000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  1128.45
+
+General statistics:
+    total time:                          10.0004s
+    total number of events:              11287
+
+Latency (ms):
+         min:                                    0.83
+         avg:                                    0.89
+         max:                                   12.04
+         95th percentile:                        1.01
+         sum:                                 9994.53
+
+Threads fairness:
+    events (avg/stddev):           11287.0000/0.00
+    execution time (avg/stddev):   9.9945/0.00
+
+
+ Performance counter stats for 'sysbench cpu --cpu-max-prime=20000 --threads=1 --time=10 run':
+
+   10,00,55,74,308      task-clock                       #    1.000 CPUs utilized             
+                44      context-switches                 #    4.398 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               880      page-faults                      #   87.951 /sec                      
+   <not supported>      cycles                                                                
+
+      10.008451644 seconds time elapsed
+
+       9.996210000 seconds user
+       0.010544000 seconds sys
+
+
